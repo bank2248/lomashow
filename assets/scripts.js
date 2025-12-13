@@ -19959,22 +19959,42 @@ const vM = new yM({
                                    className: "text-xs font-bold text-gray-400 uppercase tracking-widest mb-1",
                                    children: "Contact"
                                }), N.jsx("a", {
-                                   href: "mailto:booking@junecollective.com",
+                                   href: "mailto:baw210.artist@gmail.com",
                                    className: "text-2xl font-serif text-black hover:text-gray-600 transition-colors",
                                    children: "baw210.artist@gmail.com"
                                })]
                            })]
                        })]
                    }), N.jsx("div", {
-                       className: "flex gap-6 mt-12",
-                       children: [G0, Z0, U0].map((i, t) => N.jsx("a", {
-                           href: "#",
-                           className: "text-black hover:text-gray-500 transition-colors",
-                           children: N.jsx(i, {
-                               size: 24
-                           })
-                       }, t))
-                   })]
+  className: "flex gap-6 mt-12",
+  children: [
+    {
+      Icon: G0,
+      href: "https://www.instagram.com/lomashowz/"
+    },
+    /*{
+      Icon: Z0,
+      href: "https://www.youtube.com/@lomashowz"
+    },*/
+    {
+      Icon: U0,
+      href: "https://www.facebook.com/lomalomashow"
+    }
+  ].map((item, i) =>
+    N.jsx(
+      "a",
+      {
+        href: item.href,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        className: "text-black hover:text-gray-500 transition-colors",
+        children: N.jsx(item.Icon, { size: 24 })
+      },
+      i
+    )
+  )
+})
+]
                })]
            })
        })
