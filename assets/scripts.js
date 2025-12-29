@@ -10020,19 +10020,19 @@ const $0 = [
    ],
    W0 = Ze("x", $0),
    Gh = "LOMASHOW",
-   j0 = "UwU",
-   eT = "UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU UwU",
-   Hh = 'Ho Ho Ho',
+   j0 = "n/a",
+   eT = "n/a",
+   Hh = 'Happy New Year!',
    jo = [{
    }],
    Sa = [{
        id: "1",
-       quote: "ไม่มีอะไรที่เราทำได้อยู่แล้ว",
-       source: "rama 2 no bankboo"
+       quote: "",
+       source: ""
    }, {
        id: "2",
-       quote: "ขี่เขี้ยวกุดจับตั๊กแตน ชลดา",
-       source: "Daily Prophet"
+       quote: "",
+       source: ""
    }],
    tT = [{
        id: "1",
@@ -10042,7 +10042,7 @@ const $0 = [
        ticketLink: ""
    }],
    nT = [{
-       name: "Bank",
+       name: "Borjor",
        role: "Vocals",
        image: "../assets/image/cat_judge.png"
    }, {
@@ -10138,7 +10138,7 @@ const $0 = [
                className: "w-full h-full object-cover",
                poster: "../assets/image/lomashowcover.jpg",
                children: [N.jsx("source", {
-                   src: "https://videos.pexels.com/video-files/4038481/4038481-uhd_2560_1440_25fps.mp4",
+                   src: "../assets/lyricsvideo_promo.mp4",
                    type: "video/mp4"
                }), "Your browser does not support the video tag."]
            }), N.jsx("div", {
@@ -10156,11 +10156,11 @@ const $0 = [
                    className: "w-2 h-2 rounded-full bg-red-500 animate-pulse"
                }), N.jsx("span", {
                    className: "text-[10px] font-['Prompt'] tracking-[0.2em] text-white uppercase",
-                   children: "ไม่ต้องห่วง ไม่เป็นไร Is Out Now"
+                   children: "New Release"
                })]
            }), N.jsxs("h1", {
-               className: "text-6xl md:text-8xl lg:text-9xl font-['Shizuru'] text-white mb-6 leading-[0.85] tracking-tight mix-blend-overlay opacity-90",
-               children: ["LOMASHOW", N.jsx("br", {}), N.jsx]
+               className: "text-6xl md:text-8xl lg:text-9xl font-['Prompt'] text-white mb-6 leading-[0.85] tracking-tight mix-blend-overlay opacity-90",
+               children: ["ไม่เกลียดฉันก็พอ", N.jsx("br", {}), N.jsx]
            }), N.jsx("p", {
                className: "text-lg md:text-xl text-gray-200 font-light max-w-xl mx-auto leading-relaxed mb-10 tracking-wide",
                children: j0
@@ -10236,7 +10236,7 @@ const $0 = [
           
                       N.jsx("p", {
                         className: "text-gray-500 mb-8 font-light",
-                        children: "Original recordings & demos"
+                        children: ":)"
                       }),
           
                       N.jsxs("div", {
@@ -10488,9 +10488,9 @@ const $0 = [
                    className: "lg:pl-24 pt-12",
                    children: [N.jsxs("h2", {
                        className: "text-6xl font-['Prompt'] text-black leading-[0.9] mb-8",
-                       children: ["โกรธมั้ย โกรธมั้ย", N.jsx("br", {}), " ", N.jsx("span", {
+                       children: ["This is us.", N.jsx("br", {}), " ", N.jsx("span", {
                            className: "italic text-[#c07e66]",
-                           children: "ไม่ชัวร์อะไรสักอย่างสองอย่าง"
+                           children: "LOMASHOW"
                        })]
                    }), N.jsx("div", {
                        className: "space-y-6 text-gray-600 font-light text-lg leading-relaxed",
@@ -19919,8 +19919,8 @@ const vM = new yM({
                className: "grid grid-cols-1 md:grid-cols-2 gap-20",
                children: [N.jsxs("div", {
                    children: [N.jsx("h2", {
-                       className: "text-4xl font-serif text-black mb-8",
-                       children: "On Tour"
+                       className: "text-4xl font-['Shizuru'] text-black mb-8",
+                       children: "TOUR"
                    }), N.jsx("div", {
                        className: "divide-y divide-gray-200 border-t border-b border-gray-200",
                        children: tT.map(i => N.jsxs("div", {
@@ -20032,7 +20032,7 @@ _M = () => N.jsxs("div", {
 
                 children: [
                   N.jsx("iframe", {
-                    src: "https://www.youtube.com/embed/EV9B23Iihi0?sirel=0&modestbranding=1",
+                    src: "https://www.youtube.com/embed/wut0uW62HdE?si=BwvOqfUVssQC_fyW",
                     title: "YouTube video player",
                     frameBorder: "0",
                     allow:
