@@ -10020,7 +10020,7 @@ const $0 = [
    ],
    W0 = Ze("x", $0),
    Gh = "LOMASHOW",
-   j0 = "n/a",
+   j0 = "",
    eT = "n/a",
    Hh = 'Happy New Year!',
    jo = [{
@@ -10171,7 +10171,7 @@ const $0 = [
                    className: "group relative px-8 py-4 bg-white text-black hover:bg-[#f0ebe5] transition-all duration-300 uppercase text-xs tracking-[0.2em] font-bold overflow-hidden",
                    children: N.jsxs("span", {
                        className: "relative z-10 flex items-center gap-2",
-                       children: ["Releases", N.jsx(Lh, {
+                       children: ["See More Releases", N.jsx(Lh, {
                            size: 12,
                            fill: "currentColor"
                        })]
