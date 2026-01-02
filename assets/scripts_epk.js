@@ -9921,16 +9921,16 @@ function vh() {
                           ]
                       })]
                   }), E.jsxs("div", {
-                      className: "flex flex-col items-center md:items-end gap-2 text-[12px] font-['Prompt'] uppercase tracking-[0.5em] text-slate-300",
+                      className: "flex flex-col items-center md:items-end gap-2 text-[12px] font-['Prompt'] uppercase tracking-[0.2em] text-slate-800",
                       children: [E.jsxs("span", {
-                          children: ["© ", new Date().getFullYear(), " LOMASHOW"]
+                          children: ["096-8549447 บอจอ (15.00-22.00 ส.-อา.)"]
                       }), E.jsxs("div", {
                           className: "flex gap-4 items-center",
                           children: [E.jsx("div", {
                               className: "w-2 h-2 rounded-full bg-green-1000 animate-pulse"
                           }), E.jsx("span", {
-                              children: ""
-                          })]
+                              children: "064-6452021 แบงค์ (15.00-22.00 ส.-อา.)"
+                          }), ]
                       })]
                   })]
               })
