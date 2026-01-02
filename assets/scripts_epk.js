@@ -9930,7 +9930,7 @@ function vh() {
               })
           })]
       }), E.jsxs("a", {
-          href: "index",
+          href: "https://lomashow.xyz",
           target: "_blank",
           rel: "noopener noreferrer",
           className: "fixed bottom-8 right-8 z-[100] w-14 h-14 bg-white/60 glass rounded-full shadow-lg hover:shadow-pink-100/50 hover:scale-110 active:scale-95 transition-all flex items-center justify-center group",
