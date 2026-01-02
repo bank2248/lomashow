@@ -10221,7 +10221,7 @@ const $0 = [
             children: N.jsx("div", {
               className: "max-w-6xl mx-auto px-6",
               children: N.jsxs("div", {
-                className: "grid grid-cols-1 lg:grid-cols-2 gap-16 items-center",
+                className: "grid grid-cols-1 lg:grid-cols-1 gap-16 items-center",
           
                 children: [
           
