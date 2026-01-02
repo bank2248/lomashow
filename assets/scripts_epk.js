@@ -9593,13 +9593,15 @@ function nh() {
 var ch = nh();
 const fh = Ad(ch),
   Ed = "LOMASHOW",
-  ih = "เริ่มต้นจากนิยามของคำว่า ‘ไม่’ สู่เรื่องราวมากมายในอัลบั้ม Double Negative",
-  sh = `LOMASHOW คือดูโอดนตรีแนว Indie-pop จากกรุงเทพฯ เกิดขึ้นจากความปรารถนาที่จะระบายความรู้สึกหลังอาการอกหัก โดยมีดนตรีเป็นพื้นที่ให้ถ่ายทอดความรู้ที่เกิดขึ้นในเวลานั้น
+  ih = "เริ่มต้นจากนิยามของคำว่า ‘ไม่’ สู่เรื่องราวมากมายในอัลบัม Double Negative",
+  sh = `LOMASHOW คือดูโอดนตรีแนว Indie-pop จากกรุงเทพฯ เริ่มต้นขึ้นจากความคิดเล็กคิดน้อยในวันหนึ่งของ แบงค์ (Bank) เขานั่งเล่นกีตาร์เพื่อระบายความรู้สึกหลังอาการน้อยใจ ในวันนั้นภาพเหตุการณ์และถ้อยคำต่าง ๆ พรั่งพรูออกมาพร้อมกับเสียงกีตาร์ กลายเป็นจุดกำเนิดของเพลง "ไม่โกรธมั้ง" ซึ่งเริ่มมาจากการที่เขาต้องการจะ "ฮีล" ตัวเองในวันที่ไม่สามารถเล่าความรู้สึกเหล่านั้นให้ใครฟังได้
+  
+  เขารู้สึกว่าในวันที่การเขียนคำระบายลงในหน้ากระดาษเพียงอย่างเดียวไม่เพียงพอต่ออารมณ์ที่มากมายขนาดนั้น พวกเขาจึงนำดนตรีเข้ามาเป็นอีกหนึ่งแรงเพื่อช่วยโอบอุ้มและระบายความรู้สึกเหล่านั้นให้สมบูรณ์ขึ้น ทุกบทเพลงจึงเกิดขึ้นจากประสบการณ์จริงที่ถูกนำมาปรุงแต่งให้เป็นเรื่องราวที่ลงตัว เพื่อส่งต่อความเข้าใจนี้ไปยังใครก็ตามที่กำลังเผชิญสภาวะติดลบในรูปแบบเดียวกัน
 
-แบงค์ (Bank): Songwriter & Producer | ผู้อยู่เบื้องหลังงานดนตรีประกอบภาพยนตร์ (Film Score) นำทักษะการเล่าเรื่องมาใช้กับ LOMASHOW ให้มีการถ่ายทอดเรื่องราวที่น่าสนใจ
-บอจอ (Borjor): Vocalist | ถ่ายทอดความอัดอั้นและความจริงใจของผู้ที่ติดอยู่ในความสัมพันธ์ผ่านน้ำเสียงที่เป็นเอกลักษณ์
+แบงค์ (Bank): Songwriter & Producer - ผู้อยู่เบื้องหลังงานดนตรีประกอบภาพยนตร์ (Film Score) เขานำไดอารีที่แสนเศร้าและทักษะการเล่าเรื่องมาใช้กับ LOMASHOW ให้มีการถ่ายทอดเรื่องราวที่น่าสนใจที่ยิ่งขึ้น
+บอจอ (Borjor): Vocalist - นักร้องนำผู้ทำหน้าที่ถ่ายทอดความอัดอั้นและความจริงใจของผู้ที่ติดอยู่ในความสัมพันธ์ พาคนเดินทางทางจุดที่เคยสดใส จนถึงจุดที่ต้องทำความเข้าใจกับความผิดหวังอย่างตรงไปตรงมา
 
-คอนเซ็ปต์ที่เริ่มมากับการทำ LOMASHOW ตั้งแต่แรก เป็นกิมมิคการตั้งชื่อเพลงที่ขึ้นต้นด้วยคำว่า "ไม่" ทุกเพลง เพื่อรวบรวมเป็นอัลบั้มเต็มในชื่อ "Double Negative" เนื้อหาเพลงคือการเดินทางของคนที่แอบชอบเพื่อน เริ่มต้นด้วยความสดใส มีความหวัง และลงท้ายด้วยความผิดหวังอย่างสวยงาม 
+จากจุดเริ่มต้นเล็ก ๆ ในห้องนอนจนเป็นคอนเซ็ปต์ที่เริ่มมากับการทำ LOMASHOW ตั้งแต่แรก เป็นกิมมิคการตั้งชื่อเพลงที่ขึ้นต้นด้วยคำว่า "ไม่" ทุกเพลง เพื่อรวบรวมเป็นอัลบัมเต็มในชื่อ "Double Negative" เนื้อหาเพลงส่วนใหญ่คือการเดินทางของคนที่แอบชอบเพื่อน เริ่มต้นด้วยความสดใส มีความหวัง และลงท้ายด้วยความผิดหวังอย่างสวยงาม 
 `,
   oh = "../assets/image/lomashowcover.jpg",
   dh = [{
@@ -9611,16 +9613,16 @@ const fh = Ad(ch),
       link: "https://youtu.be/ZM6rOA1xTYg?si=hbji4nGahPAqLCOP"
   }, {
       url: "../assets/image/bank01.png",
-      alt: "Bank"
+      alt: "This Is Bank"
   }, {
       url: "../assets/image/cat_googleearthtake2.png",
-      alt: "Mood Visual"
+      alt: "แมว"
   }, {
       url: "../assets/image/cat_judge.png",
-      alt: "Neon Aesthetic"
+      alt: "แมว"
   }, {
       url: "../assets/image/bj1.png",
-      alt: "Borjor Live Performance",
+      alt: "Borjor Live Performing",
       link: ""
   }],
   mh = [{
@@ -9713,7 +9715,7 @@ function vh() {
                           className: "text-6xl md:text-9xl font-['Prompt'] tracking-tighter leading-none text-slate-900 uppercase",
                           children: Ed
                       }), E.jsx("p", {
-                          className: "text-xl md:text-2xl font-['Prompt'] italic text-slate-500 tracking-wide",
+                          className: "text-base md:text-xl font-['Prompt'] italic text-slate-500 tracking-wide",
                           children: ih
                       })]
                   }), E.jsxs("div", {
@@ -9732,8 +9734,8 @@ function vh() {
               children: [E.jsxs("div", {
                   className: "flex items-center gap-6",
                   children: [E.jsx("span", {
-                      className: "text-[10px] font-['Prompt'] uppercase tracking-[0.4em] text-green-500 shrink-0",
-                      children: "01 / The Story"
+                      className: "text-[12px] font-['Prompt'] uppercase tracking-[0.4em] text-rose-400 shrink-0",
+                      children: "Chapter I / The Story"
                   }), E.jsx("div", {
                       className: "h-px w-full bg-slate-100"
                   })]
@@ -9780,8 +9782,8 @@ function vh() {
               children: [E.jsxs("div", {
                   className: "flex items-center gap-6",
                   children: [E.jsx("span", {
-                      className: "text-[10px] font-['Prompt'] uppercase tracking-[0.4em] text-green-500 shrink-0",
-                      children: "02 / Music Catalog"
+                      className: "text-[12px] font-['Prompt'] uppercase tracking-[0.4em] text-rose-400 shrink-0",
+                      children: "Chapter II / Music Catalog"
                   }), E.jsx("div", {
                       className: "h-px w-full bg-slate-100"
                   })]
@@ -9791,12 +9793,12 @@ function vh() {
                       className: "flex justify-between items-center mb-12",
                       children: E.jsx("h3", {
                           className: "text-3xl font-['Prompt'] tracking-tight text-slate-900",
-                          children: "Focus & New Releases"
+                          children: "Focus & Releases"
                       })
                   }), E.jsx("div", {
                       className: "grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4",
                       children: mh.map(A => E.jsxs("div", {
-                          className: "group flex items-center justify-between p-4 rounded-3xl hover:bg-white transition-all cursor-pointer border border-transparent hover:border-slate-50 hover:shadow-sm",
+                          className: "group flex items-center justify-between p-4 rounded-3xl hover:bg-white transition-all border border-transparent hover:border-slate-50 hover:shadow-sm",
                           children: [E.jsxs("div", {
                               className: "flex items-center gap-5",
                               children: [E.jsx("img", {
@@ -9805,9 +9807,9 @@ function vh() {
                                   alt: ""
                               }), E.jsxs("div", {
                                   children: [E.jsxs("p", {
-                                      className: "text-base font-bold text-slate-800 group-hover:text-pink-500 transition-colors flex items-center gap-3",
+                                      className: "text-base font-['Prompt'] font-bold text-slate-800 group-hover:text-rose-400 transition-colors flex items-center gap-3",
                                       children: [A.title, A.tag && E.jsx("span", {
-                                          className: "text-[8px] bg-slate-50 px-2 py-1 rounded-full uppercase tracking-widest text-slate-400 font-black",
+                                          className: "text-[8px] bg-slate-100 px-2 py-1 rounded-full uppercase tracking-widest text-slate-700 font-black",
                                           children: A.tag
                                       })]
                                   }), E.jsx("p", {
@@ -9843,13 +9845,56 @@ function vh() {
                       })]
                   })]
               })]
-          }), E.jsxs("section", {
+          }),E.jsxs("section", {
+            className: "space-y-12",
+            children: [
+              // header
+              E.jsxs("div", {
+                className: "flex items-center gap-6",
+                children: [
+                  E.jsx("span", {
+                    className:
+                      "text-[12px] font-['Prompt'] uppercase tracking-[0.4em] text-rose-400 shrink-0",
+                    children: "Chapter III / FEATURED & ACHIEVEMENTS"
+                  }),
+                  E.jsx("div", {
+                    className: "h-px w-full bg-slate-100"
+                  })
+                ]
+              }),
+          
+              // content
+              E.jsxs("div", {
+                className:
+                  "bg-white/40 glass rounded-[40px] p-8 md:p-12 space-y-8",
+                children: [
+                  E.jsx("p", {
+                    className:
+                      "text-lg md:text-xl font-['Prompt'] leading-relaxed text-slate-600 whitespace-pre-line italic",
+                    children:
+                      "Featured on House of Stars: ซิงเกิล “ไม่เท่าไร” ได้รับเลือกเป็นเพลงประกอบซีรีส์ House of Stars (สถาบันปั้นดาว) \nโดยเป็นเพลงที่ใช้ในฉากที่ทั้งสองตัวละครร้องเพลงด้วยกันบนเวทีใน Episode ที่ 5"
+                  }),
+          
+                  /*// button
+                  E.jsx("a", {
+                    href: "https://example.com",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className:
+                      "inline-flex items-center justify-center px-10 py-4 bg-emerald-300/80 text-slate-900 text-[10px] font-black uppercase tracking-[0.3em] rounded-full hover:bg-emerald-400 transition-all shadow-md active:scale-95",
+                    children: "Read More"
+                  })*/
+                ]
+              })
+            ]
+          }),
+            E.jsxs("section", {
               className: "space-y-12",
               children: [E.jsxs("div", {
                   className: "flex items-center gap-6",
                   children: [E.jsx("span", {
-                      className: "text-[10px] font-['Prompt'] uppercase tracking-[0.4em] text-purple-400 shrink-0",
-                      children: "03 / Photos"
+                      className: "text-[12px] font-['Prompt'] uppercase tracking-[0.4em] text-rose-400 shrink-0",
+                      children: "Photos"
                   }), E.jsx("div", {
                       className: "h-px w-full bg-slate-100"
                   })]
@@ -9887,7 +9932,7 @@ function vh() {
                             "pointer-events-none absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
                           children: E.jsx("span", {
                             className:
-                              "text-[8px] font-black uppercase tracking-[0.4em] text-white bg-black/20 backdrop-blur-md px-4 py-2 rounded-full",
+                              "text-[8px] font-['Prompt'] uppercase tracking-[0.3em] text-white bg-black/20 backdrop-blur-md px-4 py-2 rounded-full",
                             children: A.alt
                           })
                         })
@@ -9909,30 +9954,40 @@ function vh() {
                       }), E.jsxs("div", {
                           className: "flex flex-wrap gap-6 justify-center md:justify-start items-center",
                           children: [
-                              ["Thank You", ":)", "", ""].map(A => E.jsx("a", {
-                                  href: "#",
+                              ["Instagram", "", "", ""].map(A => E.jsx("a", {
+                                  href: "https://www.instagram.com/lomashowz/",
                                   className: "text-[10px] font-['Prompt'] uppercase tracking-widest text-slate-400 hover:text-slate-900 transition-colors",
                                   children: A
                               }, A)), E.jsx("a", {
-                                  href: "#",
-                                  className: "px-6 py-3 bg-slate-900 text-white text-[9px] font-black uppercase tracking-[0.3em] rounded-full hover:bg-pink-500 transition-all shadow-xl active:scale-95",
+                                  href: "../assets/image/jerry_monday.jpg",
+                                  download: "jerry_monday.jpg",
+                                  className: "px-6 py-3 bg-slate-900 text-white text-[9px] font-black uppercase tracking-[0.3em] rounded-full hover:bg-emerald-400 transition-all shadow-xl active:scale-95",
                                   children: "Download PDF EPK"
                               })
                           ]
                       })]
                   }), E.jsxs("div", {
-                      className: "flex flex-col items-center md:items-end gap-2 text-[12px] font-['Prompt'] uppercase tracking-[0.2em] text-slate-800",
-                      children: [E.jsxs("span", {
-                          children: ["096-8549447 บอจอ (15.00-22.00 ส.-อา.)"]
-                      }), E.jsxs("div", {
-                          className: "flex gap-4 items-center",
-                          children: [E.jsx("div", {
-                              className: "w-2 h-2 rounded-full bg-green-1000 animate-pulse"
-                          }), E.jsx("span", {
-                              children: "064-6452021 แบงค์ (15.00-22.00 ส.-อา.)"
-                          }), ]
-                      })]
-                  })]
+                    className:
+                      "flex flex-col items-center md:items-end gap-2 text-[12px] font-['Prompt'] uppercase tracking-[0.2em] text-slate-800",
+                    children: [
+                  
+                        E.jsx("span", {
+                            className: "text-slate-600 text-black text-[12px] font-['Prompt'] uppercase tracking-[0.1em]",
+                            children: "096-8549447 บอจอ (15.00-22.00 ส.-อา.)"
+                          }),
+                          E.jsx("span", {
+                            className: "text-slate-600 text-black text-[12px] font-['Prompt'] uppercase tracking-[0.1em]",
+                            children: "064-6452021 แบงค์ (15.00-22.00 ส.-อา.)"
+                          }),
+                          E.jsx("span", {
+                            className: "text-slate-400 text-[12px] normal-case tracking-normal",
+                            children: "baw210.artist@gmail.com"
+                          })
+                          
+                  
+                    ]
+                  })
+                  ]
               })
           })]
       }), E.jsxs("a", {
@@ -9963,6 +10018,7 @@ function vh() {
       })]
   })
 }
+
 const _d = document.getElementById("root");
 if (!_d) throw new Error("Could not find root element to mount to");
 const hh = fh.createRoot(_d);
