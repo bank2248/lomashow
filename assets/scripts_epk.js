@@ -9858,28 +9858,33 @@ function vh() {
                   children: dh.map((A, ol) =>
                     E.jsxs("div", {
                       key: ol,
-                      onClick: () => {
-                        if (A.link) {
-                          window.open(A.link, "_blank", "noopener,noreferrer");
-                        }
-                      },
-                      className: `relative overflow-hidden rounded-[40px] group shadow-sm cursor-pointer ${
+                      className: `relative overflow-hidden rounded-[40px] group shadow-sm ${
                         ol === 0 ? "lg:col-span-2 lg:row-span-2" : "aspect-square"
                       }`,
                       children: [
                         E.jsx("img", {
                           src: A.url,
+                          alt: A.alt,
+                          onClick: (e) => {
+                            e.stopPropagation();
+                  
+                            const targetUrl = A.link || A.url;
+                            window.open(targetUrl, "_blank", "noopener,noreferrer");
+                          },
                           className:
-                            "w-full h-full object-cover transition-all duration-1000 group-hover:scale-110 group-hover:rotate-1",
-                          alt: A.alt
+                            "w-full h-full object-cover cursor-pointer transition-all duration-1000 group-hover:scale-110 group-hover:rotate-1"
                         }),
+                  
+                        // overlay
                         E.jsx("div", {
                           className:
-                            "absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"
+                            "pointer-events-none absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"
                         }),
+                  
+                        // label
                         E.jsx("div", {
                           className:
-                            "absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+                            "pointer-events-none absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500",
                           children: E.jsx("span", {
                             className:
                               "text-[8px] font-black uppercase tracking-[0.4em] text-white bg-black/20 backdrop-blur-md px-4 py-2 rounded-full",
@@ -9889,6 +9894,7 @@ function vh() {
                       ]
                     })
                   )
+                  
                   
               })]
           }), E.jsx("footer", {
