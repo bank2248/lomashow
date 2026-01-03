@@ -9962,7 +9962,7 @@ function vh() {
                                   href: "../assets/image/jerry_monday.jpg",
                                   download: "jerry_monday.jpg",
                                   className: "px-6 py-3 bg-slate-900 text-white text-[9px] font-black uppercase tracking-[0.3em] rounded-full hover:bg-emerald-400 transition-all shadow-xl active:scale-95",
-                                  children: "Download PDF EPK"
+                                  children: "Download ONESHEET PDF"
                               })
                           ]
                       })]
