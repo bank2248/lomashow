@@ -9605,8 +9605,8 @@ const fh = Ad(ch),
 `,
   oh = "../assets/image/lomashowcover.jpg",
   dh = [{
-      url: "../assets/image/lms.png",
-      alt: "LOMASHOW LOGO"
+      url: "../assets/image/jerry_monday.jpg",
+      alt: "Monday Again!?"
   }, {
       url: "../assets/image/madmvthumbnail.jpeg",
       alt: "Music Video ไม่โกรธมั้ง",
