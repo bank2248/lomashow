@@ -10027,11 +10027,11 @@ const $0 = [
    }],
    Sa = [{
        id: "1",
-       quote: "",
+       quote: "(ノ*°▽°*)",
        source: ""
    }, {
        id: "2",
-       quote: "",
+       quote: "＼(￣▽￣)＼",
        source: ""
    }],
    tT = [{
@@ -10488,7 +10488,7 @@ const $0 = [
                    className: "lg:pl-24 pt-12",
                    children: [N.jsxs("h2", {
                        className: "text-6xl font-['Prompt'] text-black leading-[0.9] mb-8",
-                       children: ["This is us.", N.jsx("br", {}), " ", N.jsx("span", {
+                       children: ["This is", N.jsx("br", {}), " ", N.jsx("span", {
                            className: "italic text-[#c07e66]",
                            children: "LOMASHOW"
                        })]
@@ -10521,7 +10521,7 @@ const $0 = [
                        })]
                    })]
                })]
-           }), N.jsxs("div", {
+           }),/* N.jsxs("div", {
                className: "relative",
                children: [N.jsx("h3", {
                    className: "text-center text-xs font-bold uppercase tracking-[0.3em] mb-16 text-gray-400",
@@ -10551,7 +10551,7 @@ const $0 = [
                        })]
                    }, i.name))
                })]
-           })]
+           })*/]
        })]
    });
 var mu = (i => (i.MYSTICAL = "Mystical", i.ENERGETIC = "Energetic", i.PROFESSIONAL = "Professional", i.INTIMATE = "Intimate", i))(mu || {}),
