@@ -20032,7 +20032,7 @@ _M = () => N.jsxs("div", {
 
                 children: [
                   N.jsx("iframe", {
-                    src: "https://www.youtube.com/embed/wut0uW62HdE?si=BwvOqfUVssQC_fyW",
+                    src: "https://www.youtube.com/embed/ZO6qCovkUC4?si=ZvcUpTb6ro0DlC3G",
                     title: "YouTube video player",
                     frameBorder: "0",
                     allow:
